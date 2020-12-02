@@ -1,0 +1,39 @@
+{
+  "name": "@smartlinkdev/eslint-config",
+  "version": "0.1.0",
+  "description": "An opinionated eslint config.",
+  "author": "Nick Duskey <nduskey@smartlink.city>",
+  "homepage": "https://github.com/smartlink-ventures/eslint-config/tree/master/packages/eslint-config",
+  "license": "ISC",
+  "keywords": [
+    "eslint",
+    "smartlink"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smartlink-ventures/eslint-config.git",
+    "directory": "packages/eslint-config"
+  },
+  "bugs": {
+    "url": "https://github.com/smartlink-ventures/eslint-config/issues"
+  },
+  "main": "lib/eslint-config.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.9.0",
+    "@typescript-eslint/parser": "^4.9.0",
+    "typescript": "^4.1.2"
+  },
+  "peerDependencies": {
+    "eslint": "^7.14.0"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "@smartlinkdev/eslint-config-vue",
+  "version": "0.1.0",
+  "description": "An opinionated eslint config for Vue projects.",
+  "homepage": "https://github.com/smartlink-ventures/tree/master/packages/eslint-config-vue",
+  "keywords": [
+    "smartlink",
+    "eslint",
+    "vue"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smartlink-ventures/eslint-config.git",
+    "directory": "packages/eslint-config-vue"
+  },
+  "bugs": {
+    "url": "https://github.com/smartlink-ventures/eslint-config/issues"
+  },
+  "license": "MIT",
+  "author": "Nick Duskey <nduskey@smartlink.city>",
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint-plugin-vue": "^7.1.0"
+  }
+}
