@@ -5,7 +5,7 @@
   ],
   "scripts": {
     "lint": "eslint . --config=packages/eslint-config/index.js",
-    "release": "HUSKY_SKIP_HOOKS=1 lerna publish",
+    "release": "lerna publish",
     "publish-ci": "lerna publish from-package -y --no-verify-access"
   },
   "husky": {
