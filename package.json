@@ -5,7 +5,8 @@
   ],
   "scripts": {
     "lint": "eslint . --config=packages/eslint-config/index.js",
-    "release": "HUSKY_SKIP_HOOKS=1 lerna publish"
+    "release": "HUSKY_SKIP_HOOKS=1 lerna publish",
+    "publish-ci": "lerna publish from-package -y --no-verify-access"
   },
   "husky": {
     "hooks": {
@@ -24,5 +25,8 @@
     "eslint": "^7.14.0",
     "husky": "^4.3.0",
     "lerna": "^3.22.1"
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.12.0"
   }
 }

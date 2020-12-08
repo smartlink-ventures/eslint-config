@@ -8,6 +8,7 @@
 
 # Smartlink ESLint Config
 
+[![GitHub Super-Linter](https://github.com/<OWNER>/<REPOSITORY>/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 [![GitHub Actions](https://github.com/smartlink-ventures/eslint-config/workflows/ci/badge.svg?branch=master)](https://github.com/smartlink-ventures/eslint-config/actions?query=workflow%3Aci)
 [![npm (scoped with tag)](https://flat.badgen.net/npm/v/@smartlinkdev/eslint-config)](https://npmjs.com/package/@smartlinkdev/eslint-config)
 [![npm](https://flat.badgen.net/npm/dt/@smartlinkdev/eslint-config)](https://npmjs.com/package/@smartlinkdev/eslint-config)
