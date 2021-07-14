@@ -18,6 +18,7 @@
   },
   "license": "MIT",
   "author": "Nick Duskey <nduskey@smartlink.city>",
+  "main": "index.js",
   "files": [
     "index.js"
   ],
