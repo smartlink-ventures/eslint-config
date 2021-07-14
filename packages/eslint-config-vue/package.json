@@ -28,5 +28,10 @@
   "dependencies": {
     "babel-eslint": "^10.1.0",
     "eslint-plugin-vue": "^7.1.0"
+  },
+  "devDependencies": {
+    "@smartlinkdev/eslint-config": "^0.2.1",
+    "eslint": "^7.30.0",
+    "eslint-plugin-import": "^2.23.4"
   }
 }

@@ -1,0 +1,30 @@
+{
+  "name": "eslint-config-ts",
+  "version": "0.1.0",
+  "description": "> TODO: description",
+  "author": "Nick Duskey <nduskey@smartlink.city>",
+  "homepage": "https://github.com/smartlink-ventures/eslint-config#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smartlink-ventures/eslint-config.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/smartlink-ventures/eslint-config/issues"
+  },
+  "devDependencies": {
+    "eslint": "^7.30.0",
+    "eslint-plugin-import": "^2.23.4"
+  }
+}
