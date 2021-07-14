@@ -1,6 +1,6 @@
 {
   "name": "@smartlinkdev/eslint-config",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "An opinionated eslint config.",
   "author": "Nick Duskey <nduskey@smartlink.city>",
   "homepage": "https://github.com/smartlink-ventures/eslint-config/tree/master/packages/eslint-config",
