@@ -21,7 +21,7 @@ module.exports = {
       registeredComponentsOnly: true,
       ignores: [],
     }],
-    'vue/no-potential-component-option-type': ['error', {
+    'vue/no-potential-component-option-typo': ['error', {
       presets: ['all'],
     }],
     'vue/no-reserved-component-names': ['error'],
