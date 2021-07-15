@@ -1,6 +1,6 @@
 {
   "name": "@smartlinkdev/eslint-config-vue",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "An opinionated eslint config for Vue projects.",
   "homepage": "https://github.com/smartlink-ventures/tree/master/packages/eslint-config-vue",
   "keywords": [
