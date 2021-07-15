@@ -22,7 +22,9 @@ module.exports = {
       ignores: [],
     }],
     'vue/no-potential-component-option-typo': ['error', {
-      presets: ['all'],
+      presets: ['vue', 'vue-router'],
+      custom: [],
+      threshold: 1,
     }],
     'vue/no-reserved-component-names': ['error'],
     'vue/padding-line-between-blocks': ['error', 'always'],
