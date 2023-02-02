@@ -4,7 +4,8 @@ module.exports = {
     'plugin:vue/recommended',
   ],
   parserOptions: {
-    parser: 'babel-eslint',
+    parser: '@babel/eslint-parser',
+    requireConfigFile: false,
   },
   plugins: [
     'vue',
@@ -14,7 +15,6 @@ module.exports = {
       singleline: 2,
       multiline: {
         max: 1,
-        allowFirstLine: false,
       },
     }],
     'vue/component-name-in-template-casing': ['error', 'kebab-case', {
