@@ -26,4 +26,4 @@ module.exports = {
     '@typescript-eslint/restrict-plus-operands': 'error',
     '@typescript-eslint/type-annotation-spacing': ['error'],
   },
-}
+};

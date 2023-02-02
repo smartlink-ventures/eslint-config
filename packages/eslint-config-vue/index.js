@@ -29,4 +29,4 @@ module.exports = {
     'vue/no-reserved-component-names': ['error'],
     'vue/padding-line-between-blocks': ['error', 'always'],
   },
-}
+};
